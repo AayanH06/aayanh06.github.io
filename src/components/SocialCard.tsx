@@ -1,3 +1,5 @@
+/* eslint-disable react/style-prop-object */
+
 type SocialCardProps = {
     platform: string;
     logo: string;
@@ -10,7 +12,7 @@ type SocialCardProps = {
 
 function SocialCard({ platform, logo, alt, title, description, color, link }: SocialCardProps) {
   return (
-    <a href={link} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+    <a href={link} target="_blank" rel="noopener noreferrer">
     <div className="social-card">
       <div className="card-header" style={{ background: color }} />
       <img src={logo} alt={alt} className={`${platform}-logo`} />

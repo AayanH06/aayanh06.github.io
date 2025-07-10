@@ -1,8 +1,8 @@
-import SocialCard from './SocialCard';
+import SocialCard from '../components/SocialCard';
 
-import linkedin_logo from './assets/linkedin.png';
-import youtube_logo from './assets/youtube.png';
-import instagram_logo from './assets/instagram.jpg';
+import linkedin_logo from '../assets/linkedin.png';
+import youtube_logo from '../assets/youtube.png';
+import instagram_logo from '../assets/instagram.jpg';
 
 
 const platforms = [
